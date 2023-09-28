@@ -2,7 +2,7 @@ import { useState } from 'react';
 import './_dropdown.css'
 
 const Dropdown = () => {
-  const [isOpen, setIsOpen] = useState(false)
+  const [isOpen, setIsOpen] = useState<boolean>(false)
   const handleMouseEnter = () => setIsOpen(true)
   const handleMouseLeave = () => setIsOpen(false)
 
