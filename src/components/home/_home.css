@@ -1,0 +1,23 @@
+.home{
+  background: #F9FAFF;
+}
+
+.body{
+  margin-left: 100px;
+}
+
+.home-page{
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
+  padding-top: 8rem;
+}
+
+@media (max-width: 768px){
+  .body{
+    margin-left: 0;
+  }
+  .home-page{
+    flex-direction: column;
+  }
+}
